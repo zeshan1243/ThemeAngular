@@ -1,0 +1,36 @@
+@import 'src/assets/scss/_variable.scss';
+
+nav{
+    height: 100%;
+    z-index: 2;
+}
+.side-nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.side-nav-button:hover
+{
+    background-color: $skin2;
+    border-radius: 30%;
+}
+.dark-theme .navbar-dark{
+    background-color: #323232 !important;
+}
+.navbar-dark{
+    background-color: #fff !important;
+}
+.dark-theme .fa-solid.fa-bars{
+    color: #fff !important;
+}
+.fa-solid.fa-bars{
+    color: #323232 !important;
+}
+.navbar-brand{
+    color: #323232 !important;
+}
+.dark-theme .navbar-brand{
+    color: #fff !important;
+}
